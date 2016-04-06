@@ -25,7 +25,7 @@ class Main extends PluginBase implements Listener{
     }
     
     public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
-        if($cmd->getName() == "mypos"){
+        if($cmd->getName() == "pos"){
         $x = $sender->x;
         $y = $sender->y;
         $z = $sender->z;
