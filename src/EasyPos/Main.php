@@ -26,10 +26,10 @@ class Main extends PluginBase implements Listener{
     
     public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
         if($cmd->getName() == "pos"){
-        $x = $sender->x;
-        $y = $sender->y;
-        $z = $sender->z;
-        $sender->sendMessage(Color::YELLOW . "Your POS is:\n" . "Your X is: " . Color::GREEN . $x . Color::YELLOW . "\nYour Y is: " . Color::GREEN . $y . Color::YELLOW . "\nYour Z is: " . Color::GREEN . $z . Color::YELLOW . "\nJust use the first 3 numbers xP!");
+             $x = $sender->x;
+             $y = $sender->y;
+             $z = $sender->z;
+             $sender->sendMessage(Color::YELLOW . "Your POS is:\n" . "Your X is: " . Color::GREEN . $x . Color::YELLOW . "\nYour Y is: " . Color::GREEN . $y . Color::YELLOW . "\nYour Z is: " . Color::GREEN . $z . Color::YELLOW . "\nJust use the first 3 numbers xP!");
         }
-}
+    }
 }
