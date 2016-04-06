@@ -1,0 +1,10 @@
+
+name: EasyPos
+author: ImagicalGamer
+main: EasyPos\Main
+api: [1.0.0, 2.0.0]
+version: 1.0.0
+commands:
+ mypos:
+  usage: /mypos
+  description: Get your position!
