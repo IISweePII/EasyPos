@@ -1,2 +1,2 @@
-# EasyPos
-Get your position easy!
+# Easy Position
+Get your location in game easily!
