@@ -17,11 +17,11 @@ class Main extends PluginBase implements Listener{
     public function onEnable(){
 	$this->saveDefaultConfig();
     	$this->getServer()->getPluginManager()->registerEvents($this ,$this);
-        $this->getLogger()->info(Color::GREEN ."[Easy Position] Enabled!");
+        $this->getLogger()->info(Color::GREEN ."EasyPos has been enabled!");
     }
     
     public function onDisable(){
-    	$this->getLogger()->info(Color::RED ."[Easy Position] Disabled");
+    	$this->getLogger()->info(Color::RED ."EasyPos has been disabled");
     }
     
     public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
