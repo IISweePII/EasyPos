@@ -31,5 +31,11 @@ class Main extends PluginBase implements Listener{
         $z = $sender->z;
         $sender->sendMessage("X Coordinate: " . $x . "\nY Coordinate: " . $y . "\nZ Coordinate: " . $z . "\nRemember these coordinates if they are important!");
 	}
-}
+	elseif(cmd->getName() == "position"){
+	$x = $sender->x;
+        $y = $sender->y;
+        $z = $sender->z;
+        $sender->sendMessage("X Coordinate: " . $x . "\nY Coordinate: " . $y . "\nZ Coordinate: " . $z . "\nRemember these coordinates if they are important!");
+	}
+    }
 }
