@@ -1,10 +1,13 @@
 
-name: EasyPos
-author: ImagicalGamer
+name: Easy Position
+author: ImagicalGamer (Forked by IISweepeDII)
 main: EasyPos\Main
-api: [1.14.0]
+api: ["2.0.0", "2.1.0"]
 version: 1.0.0
 commands:
  pos:
   usage: /pos
   description: Get your position!
+ position:
+  usage: /position
+  description: Alternative command for getting your position!
